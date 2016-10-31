@@ -1,5 +1,5 @@
 var shuffleSequence = seq("setcounter", "background", "intro", "Practice", "presep", "dummysep",
-                        sepWith("sep", rshuffle(startsWith("cond"))), "exit");
+                        sepWith("sep", rshuffle(startsWith("cond"))));
 //var practiceItemTypes = ["Practice"];
 //var progressBarText = ["Progress"];
 var ds = DashedSentence;
