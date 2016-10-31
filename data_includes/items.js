@@ -1,4 +1,4 @@
-var shuffleSequence = seq("consent", "setcounter", "background", "intro", "Practice", "presep", "dummysep",
+var shuffleSequence = seq("setcounter", "background", "intro", "Practice", "presep", "dummysep",
                         sepWith("sep", rshuffle(startsWith("cond"))), "exit");
 //var practiceItemTypes = ["Practice"];
 //var progressBarText = ["Progress"];
